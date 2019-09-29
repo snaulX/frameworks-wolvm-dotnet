@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <Authors>snaulX</Authors>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <OutputPath>C:\Users\User\Desktop\Sashino\wol-projects\wol\vm\virtual-machine-dotnet\wolvm\bin\</OutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="wolvm">
+      <HintPath>..\..\..\..\virtual-machine-dotnet\wolvm\bin\netcoreapp2.0\wolvm.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
