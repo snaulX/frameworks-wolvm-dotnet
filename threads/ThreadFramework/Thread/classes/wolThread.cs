@@ -12,6 +12,7 @@ namespace wolThread.classes
 
         public wolThreadClass() : base()
         {
+            strtype = "Thread";
         }
 
         public wolThreadClass(Thread val) : this()
