@@ -11,14 +11,14 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Reference Include="wolvm">
-      <HintPath>..\..\..\..\virtual-machine-dotnet\wolvm\bin\netcoreapp1.1\wolvm.dll</HintPath>
-    </Reference>
+    <Folder Include="expressions\" />
+    <Folder Include="classes\" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="expressions\" />
-    <Folder Include="classes\" />
+    <Reference Include="wolvm">
+      <HintPath>..\..\..\..\virtual-machine-dotnet\wolvm\bin\netcoreapp2.0\wolvm.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>

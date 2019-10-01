@@ -7,7 +7,7 @@ namespace wolSystem
     {
         public Main()
         {
-            stack = new Stack();
+            expressions.Add("print", new PrintExpression());
         }
     }
 }
