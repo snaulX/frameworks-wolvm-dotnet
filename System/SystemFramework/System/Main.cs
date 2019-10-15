@@ -13,6 +13,7 @@ namespace wolSystem
             expressions.Add("sleep", new SleepExpression());
             expressions.Add("setconsolebg", new ConsoleBgExpression());
             expressions.Add("setConsoleTitle", new ConsoleTitleExpression());
+            expressions.Add("clear", new ConsoleClearExpression());
         }
     }
 }
