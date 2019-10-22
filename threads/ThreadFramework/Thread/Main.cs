@@ -11,7 +11,9 @@ namespace wolThread
     {
         public Main()
         {
-            expressions.Add("start-thread", new StartThreadExpression());
+            expressions.Add("StartThread", new StartThreadExpression());
+            expressions.Add("AbortThread", new AbortThreadExpression());
+            expressions.Add("JoinThread", new JoinThreadExpression());
             stack.classes.Add("Thread", new wolThreadClass());
             stack.values.Add("CurrentThread", new Value(new wolThreadClass(Thread.CurrentThread), SecurityModifer.PUBLIC, true));
         }
