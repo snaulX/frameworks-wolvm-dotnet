@@ -11,8 +11,8 @@ namespace wolSystem
             expressions.Add("print", new PrintExpression());
             expressions.Add("input", new InputExpression());
             expressions.Add("sleep", new SleepExpression());
-            expressions.Add("setconsolebg", new ConsoleBgExpression());
-            expressions.Add("setConsoleTitle", new ConsoleTitleExpression());
+            expressions.Add("consolebg", new ConsoleBgExpression());
+            expressions.Add("consoletitle", new ConsoleTitleExpression());
             expressions.Add("clear", new ConsoleClearExpression());
         }
     }
