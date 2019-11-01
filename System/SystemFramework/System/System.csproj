@@ -4,6 +4,7 @@
     <TargetFramework>netcoreapp2.0</TargetFramework>
     <RootNamespace>wolSystem</RootNamespace>
     <Authors>snaulX</Authors>
+    <AssemblyName>wolSystem</AssemblyName>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
