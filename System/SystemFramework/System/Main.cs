@@ -14,6 +14,7 @@ namespace wolSystem
             expressions.Add("consolebg", new ConsoleBgExpression());
             expressions.Add("consoletitle", new ConsoleTitleExpression());
             expressions.Add("clear", new ConsoleClearExpression());
+            expressions.Add("beep", new BeepExpression());
         }
     }
 }
