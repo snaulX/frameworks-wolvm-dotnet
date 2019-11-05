@@ -15,6 +15,8 @@ namespace wolSystem
             expressions.Add("consoletitle", new ConsoleTitleExpression());
             expressions.Add("clear", new ConsoleClearExpression());
             expressions.Add("beep", new BeepExpression());
+            expressions.Add("readkey", new ReadKeyExpression());
+            expressions.Add("exit", new ExitExpression());
         }
     }
 }

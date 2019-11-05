@@ -15,7 +15,7 @@ namespace wolSystem.expressions
                 }
                 catch (InvalidCastException)
                 {
-                    Console.Write(arg.ToString());
+                    Console.Write(arg.type.ToString());
                 }
             }
             return Value.VoidValue;
