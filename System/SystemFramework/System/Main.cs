@@ -17,6 +17,7 @@ namespace wolSystem
             expressions.Add("beep", new BeepExpression());
             expressions.Add("readkey", new ReadKeyExpression());
             expressions.Add("exit", new ExitExpression());
+            expressions.Add("random", new RandomExpression());
         }
     }
 }
