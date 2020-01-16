@@ -18,6 +18,12 @@ namespace wolSystem
             expressions.Add("readkey", new ReadKeyExpression());
             expressions.Add("exit", new ExitExpression());
             expressions.Add("random", new RandomExpression());
+            expressions.Add("datetimenow", new DateTimeNowExpression());
+            expressions.Add("datetimeparse", new DateTimeParseExpression());
+            expressions.Add("openread", new OpenStreamReaderExpression());
+            expressions.Add("closeread", new CloseStreamReaderExpression());
+            expressions.Add("readline", new ReadLineExpression());
+            expressions.Add("readtoend", new ReadToEndExpression());
         }
     }
 }
