@@ -7,7 +7,7 @@ namespace wolSystem.classes
 {
     public class wolDateTime : wolvm.Void
     {
-        public DateTime value;
+        public new DateTime value;
 
         public wolDateTime() : base()
         {

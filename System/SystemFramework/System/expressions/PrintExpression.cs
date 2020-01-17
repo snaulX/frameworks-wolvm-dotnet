@@ -9,14 +9,8 @@ namespace wolSystem.expressions
         {
             foreach (Value arg in args)
             {
-                try
-                {
-                    Console.Write(((wolString)arg.type).value);
-                }
-                catch (InvalidCastException)
-                {
-                    Console.Write(arg.type.ToString());
-                }
+                if (arg.type is wolString t) Console.Write(t.value);
+                else Console.Write(arg.type.ToString());
             }
             return Value.VoidValue;
         }

@@ -6,16 +6,16 @@ using wolvm;
 
 namespace wolSystem.classes
 {
-    public class wolStreamReader : wolvm.Void
+    public class wolStreamWriter : wolvm.Void
     {
-        public new StreamReader value;
+        public new StreamWriter value;
 
-        public wolStreamReader() : base()
+        public wolStreamWriter() : base()
         {
-            strtype = "StreamReader";
+            strtype = "StreamWriter";
         }
 
-        public wolStreamReader(StreamReader stream) : this()
+        public wolStreamWriter(StreamWriter stream) : this()
         {
             value = stream;
         }

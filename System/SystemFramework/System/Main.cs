@@ -21,9 +21,12 @@ namespace wolSystem
             expressions.Add("datetimenow", new DateTimeNowExpression());
             expressions.Add("datetimeparse", new DateTimeParseExpression());
             expressions.Add("openread", new OpenStreamReaderExpression());
+            expressions.Add("openwrite", new OpenStreamWriterExpression());
             expressions.Add("closeread", new CloseStreamReaderExpression());
+            expressions.Add("closewrite", new CloseStreamWriterExpression());
             expressions.Add("readline", new ReadLineExpression());
             expressions.Add("readtoend", new ReadToEndExpression());
+            expressions.Add("writefile", new WriteFileExpression());
         }
     }
 }
