@@ -1,4 +1,5 @@
 ﻿using System;
+using wolSystem.classes;
 using wolSystem.expressions;
 using wolvm;
 
@@ -8,6 +9,9 @@ namespace wolSystem
     {
         public Main()
         {
+            stack.classes.Add("DateTime", new wolDateTime());
+            stack.classes.Add("StreamReader", new wolStreamReader());
+            stack.classes.Add("StreamWriter", new wolStreamWriter());
             expressions.Add("print", new PrintExpression());
             expressions.Add("input", new InputExpression());
             expressions.Add("sleep", new SleepExpression());
